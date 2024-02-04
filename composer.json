@@ -1,0 +1,22 @@
+{
+    "name": "rave-soft/er-diagram",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RaveSoft\\ErDiagram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Borodulin",
+            "email": "borodulin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "symfony/console": "^6.4",
+        "doctrine/orm": "^3.0"
+    }
+}
